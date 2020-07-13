@@ -1,0 +1,42 @@
+
+    #SELECTED {
+        color: #009688;
+        margin-left: 20px;
+        font-size: 16px;
+        font-family: Verdana;
+    }
+
+    .bgh {
+        background-color: #e1f4fd;
+        color: #009688;
+        font-family: Verdana;
+        box-shadow: 2px 3px;
+    }
+
+    .table-bordered {
+        margin-bottom: 2px !important;
+    }
+
+    .bd {
+            box-shadow: 0px 1px 2px black;
+    border: 1px solid #c7c7c7;
+    margin: 4px;
+    transition: all 1s;
+
+    }
+    .col-sm-4 {
+    width: 31.333333%;
+}
+    @media screen and (max-width:768px){
+
+
+  .col-sm-4 {
+    width: 100%;
+} 
+
+
+    }
+        .bd:hover {
+            box-shadow: 0px 1px 17px black;
+            border: 1px solid gray;
+        }

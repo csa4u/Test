@@ -1,0 +1,28 @@
+
+.media-box {
+   background-color: #7460ee;
+   padding: 3px 6px 8px 10px;
+   overflow: hidden;
+   border-radius: 4px;
+}
+.media-box .media-icon {
+   font-size: 40px;
+   color: #FFF;
+   margin-right: 25px;
+}
+.media-box .media-info {
+   color: #FFF;
+}
+
+.media-box.bg-sea {
+   background-color: #23d3d6;
+}
+
+.media-box.bg-blue {
+   background-color: #4a90e2;
+}
+
+.media-box.bg-green {
+   background-color: #4ac959;
+}
+
