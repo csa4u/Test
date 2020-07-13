@@ -1,0 +1,45 @@
+.form-control {
+    display: block;
+    width: 100%;
+    height: 53px !important;
+}
+@media screen and (max-width:780px) {
+    .form-control {
+    display: block;
+    width: 100%;
+    height: 34px !important;
+}
+.login-form .header h1 {
+    font-family: 'Bree Serif', serif;
+    font-weight: 300;
+    font-size: 15px !important;
+    line-height: 12px;
+    color: #414848;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+.login-form .footer .button {
+    float: right;
+    padding: 2px 16px!important;
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+    background: #56c2e1;
+    border: 1px solid #46b3d3;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+    -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+.login-form .footer {
+    padding: 6px 25px 36px!important;
+    background: #d4dedf;
+    border-top: 1px solid #fff;
+    box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.15);
+}
+}
