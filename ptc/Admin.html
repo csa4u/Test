@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Admin</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/sweet-alert.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/css.css" rel="stylesheet" />
+    <link href="css/cal_ui.css" rel="stylesheet" />
+    <link href="css/custom.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/stylehealth.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body> 
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.daterangepicker/latest/daterangepicker-bs3.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.9.0/moment.min.js"></script>         
+<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap.daterangepicker/latest/daterangepicker.js"></script>
+<body class="skin-blue">
+    <div class="wrapper">
+
+        <header class="main-header">
+        <!-- Logo -->
+        <a href="#;" class="logo"><b>Admin</b></a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+                           
+              <li class="dropdown user user-menu"> </li>    
+                  
+                            
+            </ul>
+          </div>
+        </nav>
+      </header>        <!-- Left side column. contains the logo and sidebar -->
+        
+		
+		
+		
+		<aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+        
+   <ul class="sidebar-menu">
+            <li class="header">MAIN NAVIGATION</li>
+  
+      
+          <li>
+              <a href="http://52.21.84.28/dataentry/index.php/dashboard/fetchmyrecverify">
+                <i class="fa fa-th"></i> <span>verify report</span>
+              </a>
+            </li>
+
+	      
+          <li>
+              <a href="http://52.21.84.28/dataentry/index.php/dashboardstaff/ChangePassword">
+                <i class="fa fa-th"></i> <span>Change Password</span>
+              </a>
+            </li>
+			
+			  <li>
+              <a href="http://52.21.84.28/dataentry/index.php/dashboard/logout">
+                <i class="fa fa-th"></i> <span>Logout</span>
+              </a>
+            </li>
+      
+			<li class="active treeview">
+              <a href="http://52.21.84.28/dataentry/index.php/dashboard/allreg">
+                <i class="fa fa-dashboard"></i><span>Show Vacancy</span> 
+              </a>
+            
+            </li>
+           
+          </ul>
+        </section>
+        <!-- /.sidebar -->            <!-- /.sidebar -->
+        </aside>
+
+        
+		
+
+<!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <h1>
+               Report
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+
+                </ol>
+            </section>
+    
+                  <!-- Main content -->
+            <section class="content">
+                <div class="box">
+                    <div class="box-header"> 
+					
+					
+					badkfjkdjfdj
+					
+					
+					
+					
+					
+					
+					</div>
+                </div>
+       
+            </section><!-- /.content --><!-- /.content -->
+		</div>
+
+					
+<footer > 	<div class="footer" style="color: white; background-color: #172d44!important"> 
+			<div class="pull-right hidden-xs" style="height: 20px;"></div><center>Project by : Harsha, Hemshikha Singh, Sakshi Shrivastava, Neha Choudhary & Akanksha Chandel </center>
+<p>IT6006 : Minor Project</p>
+</footer></div></div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+
+                    
+<script>
+      $(function() {
+    $( "#datepicker" ).datepicker();
+     $( "#datepicker1" ).datepicker();
+  });
+
+
+
+     </script>
+ <script>
+function selectToggle(toggle, form) {
+     var myForm = document.forms[form];
+     for( var i=0; i < myForm.length; i++ ) { 
+          if(toggle) {
+               myForm.elements[i].checked = "checked";
+
+          } 
+          else {
+               myForm.elements[i].checked = "";
+                $('#t_s_Subject').attr('disabled','disabled');
+          }
+     }
+}
+   function setcollegeIDDIS_1(id)
+  {
+  
+
+  var id=id;
+  var dataString = 'id='+ id;
+  
+  $.ajax
+  ({
+    type: "POST",
+    url: "http://52.21.84.28/dataentry/index.php/users/viewBranchcoll/"+ id,
+  
+    cache: false,
+    success: function(html)
+    {
+  
+  
+               $('#district_1').css('display','');
+          //$('#consult_id').removeAttr('disabled');
+          $('#district_1').removeAttr('disabled');  
+               
+   $("#district_1").html(html);
+   $("#district1_1").css('display','none');
+   $("#district1_1").attr('disabled','disabled');
+ 
+ 
+    } 
+  });
+
+} 
+   </script>
+
+</body>
+</html>	
+   
